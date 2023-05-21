@@ -248,6 +248,16 @@ For more information see the rofi-debugging(5) manpage.
 
 ## Install distribution
 
+### Linux Mint 21.1 (Vera) or Ubuntu 22.04 (Jammy)
+```bash
+git clone https://github.com/davatorium/rofi
+sudo apt install check libxcb-util0-dev libxcb-xkb-dev libxcb-randr0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxkbcommon-x11-dev libgdk-pixbuf-2.0-dev libstartup-notification0-dev libpango1.0-dev libxcb-cursor-dev libxcb-xinerama0-dev 
+cd rofi
+./configure
+make
+sudo make install
+```
+
 ### Debian or Ubuntu
 
 ```bash
